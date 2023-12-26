@@ -1,0 +1,17 @@
+.setting-aside {
+    width: 100%;
+    height: 100vh;
+}
+
+.publish-section {
+    width: 100%;
+    border: 1px solid white;
+    display: grid;
+    grid-template-rows: 200px auto auto;
+    border: 1px solid white;
+}
+
+.following-aside     {
+    width: 100%;
+    height: 100vh;
+}

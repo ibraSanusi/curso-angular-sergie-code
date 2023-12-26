@@ -1,0 +1,85 @@
+/* Estilo del estado */
+
+.state {
+    height: 100%;
+    display: flex;
+    padding-top: 10px;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 100%;
+}
+
+.state img {
+    border-radius: 100%;
+    max-width: 55px;
+    max-height: 55px;
+}
+
+.state textarea {
+    background-color: transparent;
+    border: none;
+    overflow: hidden;
+    width: 100%;
+    height: 30px;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none;
+}
+
+/* Contenedor imagen */
+.imgContainer {
+    height: 100%;
+}
+
+.resourcesButtons svg {
+    width: 24px;
+    height: 24px;
+    color: rgb(169, 39, 128);
+}
+
+/* Contenedor del text area y de los botones */
+.textButtonSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Seccion de botones */
+.buttonsSections {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Botones de recursos */
+.resourcesButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+button {
+    padding: 7px 19px;
+    border-radius: 20px;
+    background-color: rgb(169, 39, 128);
+    border: 1px solid transparent;
+    font-weight: 500;
+    font-weight: 800;
+    cursor: pointer;
+}
