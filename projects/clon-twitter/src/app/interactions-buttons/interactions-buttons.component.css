@@ -1,0 +1,22 @@
+.interaction-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.interaction-buttons div {
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.save-download {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.save-download div {
+    min-width: 20px;
+    min-height: 20px;
+}

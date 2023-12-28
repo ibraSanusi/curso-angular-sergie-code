@@ -12,7 +12,6 @@ import { TweetCardComponent } from './tweet-card/tweet-card.component';
     RouterOutlet,
     TweetStateComponent,
     TweetCardComponent,
-    TweetCardComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
